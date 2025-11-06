@@ -86,7 +86,7 @@ const App: React.FC = () => {
               className="px-6 py-3 bg-emerald-600 text-white font-bold rounded-lg shadow-md hover:bg-emerald-700 transition-colors duration-200 disabled:bg-gray-600 disabled:cursor-not-allowed"
               disabled={!newTodo.trim()}
             >
-              Add
+              +
             </button>
           </form>
 
