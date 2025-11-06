@@ -45,9 +45,8 @@ const App: React.FC = () => {
       <div className="max-w-2xl mx-auto">
         <header className="text-center my-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">
-            ToDo List
+            체크리스트
           </h1>
-          <p className="text-gray-400 mt-2">Organize your tasks efficiently.</p>
         </header>
 
         <nav className="flex justify-center bg-gray-800 p-2 rounded-lg mb-6 shadow-lg">
@@ -79,7 +78,7 @@ const App: React.FC = () => {
               type="text"
               value={newTodo}
               onChange={(e) => setNewTodo(e.target.value)}
-              placeholder="What needs to be done?"
+              placeholder="할 일을 입력하세요."
               className="flex-1 p-3 bg-gray-800 border-2 border-gray-700 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
             />
             <button
@@ -107,8 +106,8 @@ const App: React.FC = () => {
               <div className="text-center p-10 bg-gray-800 rounded-lg">
                 <p className="text-gray-400">
                   {view === View.InProgress
-                    ? 'All tasks are done! Great job!'
-                    : 'No completed tasks yet.'}
+                    ? '모든 일을 완료했습니다! 수고하셨어요 :)'
+                    : '아직 완료한 일이 없어요 :<'}
                 </p>
               </div>
             )}
