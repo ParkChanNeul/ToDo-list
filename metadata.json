@@ -1,0 +1,5 @@
+{
+  "name": "Modern To-Do List",
+  "description": "A simple and elegant To-Do list application to manage your tasks, built with React and Tailwind CSS based on an ERD diagram.",
+  "requestFramePermissions": []
+}
